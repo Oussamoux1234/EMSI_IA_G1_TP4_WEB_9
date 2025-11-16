@@ -1,4 +1,3 @@
-/* Copier le contenu d'un textarea dans le clipboard */
 async function copyToClipboard(idTextArea) {
     var textArea = document.getElementById("form:" + idTextArea);
     if(textArea) {
