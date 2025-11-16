@@ -6,7 +6,8 @@ import jakarta.faces.model.SelectItem;
 import jakarta.faces.view.ViewScoped;
 import jakarta.inject.Inject;
 import jakarta.inject.Named;
-import ma.emsi.essalmani.tp2_web_essalmani.llm.LlmClient;
+import ma.emsi.essalmani.tp4webessalmani.llm.LlmClient;
+
 
 import java.io.Serializable;
 import java.util.ArrayList;
@@ -197,6 +198,7 @@ public class Bb implements Serializable {
 
         return this.listeRolesSysteme;
     }
+    
 
 }
 
